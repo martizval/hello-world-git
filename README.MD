@@ -36,3 +36,76 @@ Underline 2
 
 # Imagenes
 ![Logo Github](https://image.flaticon.com/icons/png/512/25/25231.png)
+
+# Code Snippets
+Codigo en JSON
+```JSON
+[
+  {
+      "title":"apples",
+      "count": [12000,20000],
+      "description": {"text": "...","sensitive":false}
+  },
+  {
+      "title":"oranges",
+      "count":[17500,null],
+      "description": {"text":"...","sensitive":false}
+  }
+]
+```
+Codigo en Javascript
+```Javascript
+function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+             ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i < classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log('undefined');
+  }
+
+  return (
+    <div>
+      <web-component>{block}</web-component>
+    </div>
+  )
+}
+
+export  $initHighlight;
+```
+
+# Tablas
+| Nombre | Apellido | Documento |
+| -------| -------- | --------- |
+| Martín | Izaga | 45751337 |
+| Emma | Valderrama | 32836625 |
+
+# Citas
+esto es un texto referente que pondrermos debajo :
+> Esto es una cita.
+
+Esto es otro texto que no se relaciona.
+> Esto es otra cita
+
+# Lineas Divisorias
+Esto es un texto que sera dividido por guiones medios
+
+---
+este es otro texto dividido por asteriscos
+
+***
+
+este es otro texto dividido por guiones bajos
+
+___
+
+# Saltos de Línea
+Esto es nuestro primer párrafo.
+
+Esto es nuestro segundo párrafo.
+
+Esto es nuestro tercer párrafo.
